@@ -1,0 +1,100 @@
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.upper_first_div{
+    /* width: 100%; */
+    text-align: justify;
+    width: 350%;
+
+} 
+
+.upper_first_div h1{
+    color: blueviolet;
+}
+
+.upper_first_div span{
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.upper_second_div{
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 450%;
+}
+
+.upper_second_div p:nth-child(1){
+    font-size: 30px;
+    color: red;
+}
+
+.upper_second_div p:nth-child(2){
+    font-size: 14px;
+    color: purple;
+    font-weight: bold;
+}
+
+.lower{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(/house.jpg);
+    height: 300px;
+}
+
+.lower_first_div{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.lower_second_div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 10px;   
+}
+
+.lower_third_div{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 10px;
+    margin-left: 10px;   
+
+}
+
+.lower_fourth_div{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 10px;   
+
+}
+
+.lower_fifth_div{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    border-radius: 10px;
+    margin-left: 10px;   
+}
+
+.lower_sixth_div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 10px;   
+}
